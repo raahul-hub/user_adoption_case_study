@@ -3,6 +3,29 @@
 ## Business Problem
 Understanding how various factors impact the likelihood of users becoming 'adopted users' within the application.
 
+## Data Overview
+
+### Data Files
+The data is available as two attached CSV files:
+- **takehome_user_engagement.csv**
+- **takehome_users.csv**
+
+### Tables
+#### 1. User Table ("takehome_users")
+- **name:** the user's name
+- **object_id:** the user's id
+- **email:** email address
+- **creation_source:** how their account was created (values: PERSONAL_PROJECTS, GUEST_INVITE, ORG_INVITE, SIGNUP, SIGNUP_GOOGLE_AUTH)
+- **creation_time:** when they created their account
+- **last_session_creation_time:** unix timestamp of last login
+- **opted_in_to_mailing_list:** whether they have opted into receiving marketing emails
+- **enabled_for_marketing_drip:** whether they are on the regular marketing email drip
+- **org_id:** the organization (group of users) they belong to
+- **invited_by_user_id:** which user invited them to join (if applicable)
+
+#### 2. Usage Summary Table ("takehome_user_engagement")
+- A row for each day that a user logged into the product
+
 ## Summary of the Exploration
 Key factors influencing user adoption include:
 - User tenure
