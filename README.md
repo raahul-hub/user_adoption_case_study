@@ -56,6 +56,6 @@ Only 13.3% of all users fit the 'adopted user' definition, which might mean it's
 
 ![Alt text](shap.png)
 
-![Alt text](Adopted_VS_Non_Adopted_Users.png)
+![Alt text](Adopted_VS_Non_Adopted_Users.png)   ![Alt text](user_tenure_VS_Adopted_users.png)
 
-![Alt text](user_tenure_VS_Adopted_users.png)
+
