@@ -50,12 +50,14 @@ Random Forest Classifier and XGBoost for Feature Importance:
 - XGBoost, a boosting algorithm, offers insights into feature importance, enabling a thorough assessment of influential features.
 Utilizing both models enhances the understanding of feature significance, guiding the selection of key variables for improved model efficiency and performance.
 
+![Alt text](shap.png)
+
 ## Conclusion
 Only 13.3% of all users fit the 'adopted user' definition, which might mean it's hard to meet the criteria—logging in three times in a week—or that users aren't very active. Looking closer at how users behave could help us make it easier for more users to meet this criteria or understand why only a small group does. When we looked at what makes users stick around, we found that how long someone has been using the app really matters—they're more likely to keep using it. Other important things include how often they use the app, their email type, and how much they interact with it. Interestingly, where they fit in the organization (org_id) doesn't seem to play a big role by itself in whether they become a regular user.
 
 
-![Alt text](shap.png)
 
-![Alt text](Adopted_VS_Non_Adopted_Users.png)   ![Alt text](user_tenure_VS_Adopted_users.png)
+![Alt text](Adopted_VS_Non_Adopted_Users.png)   
+![Alt text](user_tenure_VS_Adopted_users.png)
 
 
